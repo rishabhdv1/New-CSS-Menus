@@ -1,0 +1,101 @@
+body{
+    background-image: url(https://oklabsmenus.netlify.app/css%20menu1/wpblognews.com/demo/thebestdesigns/css-responsive-mega-drop-down-menu/images/bg.png);
+    overflow-y: hidden;
+}
+.headernav{
+    width: 1280px;
+    height: 50px;
+    background: #333333;
+    margin: 20px auto;
+}
+.headernav > ul{
+    list-style: none;
+}
+.headernav > ul > li{
+    float: left;
+}
+.headernav > ul > li > a{
+
+    display: inline-block;
+    height: 12px;
+    line-height: 12px;
+    padding:19px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    text-decoration: none;
+    color: #fff;
+}
+.headernav > ul > li:hover > a{
+    background: #ff6347;
+}
+.active{
+    background: #ff6347;
+}
+.ufoimg{
+    width: 20px;
+    margin: -5px 10px;
+}
+.submenu{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    list-style: none;
+    padding-left: 0;
+    display: none;
+}
+.menu > li{
+    position: relative;
+}
+.submenu > li > a{
+    display: block;
+    height: 60px;
+    width: 224px;
+    line-height: 60px;
+    background: #fff;
+    color: #555;
+    text-decoration: none;
+    padding-left: 26px;
+}
+.submenu1{
+    position: absolute;
+    top: 0px;
+    width: 250px;
+    background: #fff;
+    display: none !important;
+}
+.l250{
+    left: 250px;
+}
+.submenu > li{
+    position: relative;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.menu li ul li:hover .submenu1{
+    display: block !important;
+}
+.menu li ul li:hover .submenu2{
+    display: block !important;
+}
+.menu li:hover > a{
+    background: #ff6347;
+    color: #fff;
+}
+.l-250{
+    left: -250px;
+}
+.level2_1 ~ul li{
+    display: none;
+}
+.level2:hover a ~ul li{
+    z-index: 1;
+    display: block;
+}
+.ls_4 ~ul li a{
+    display: none;
+}
+.ls_4:hover ~ul li a{
+    display: block;
+}
