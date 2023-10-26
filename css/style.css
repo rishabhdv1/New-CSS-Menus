@@ -1,6 +1,7 @@
 body{
     background-image: url(https://oklabsmenus.netlify.app/css%20menu1/wpblognews.com/demo/thebestdesigns/css-responsive-mega-drop-down-menu/images/bg.png);
     overflow-y: hidden;
+    font-family: 'poppins', sans-serif;
 }
 .headernav{
     width: 1280px;
@@ -98,4 +99,83 @@ body{
 }
 .ls_4:hover ~ul li a{
     display: block;
+}
+.submenu_mega_menu{
+    /* height: 360px; */
+    width: 1280px;
+    background: #fff;
+    position: absolute;
+    left: -420.5px;
+    color: #555;
+}
+.mega_menu_table{
+    height: 100%;
+    width: 100%;
+
+}
+.mega_menu_table ul{
+    list-style: none;
+}
+.mega_menu_table a:hover{
+    background: transparent !important;
+    color: #ff6347 !important;
+}
+.mega_menu_table a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #555;
+    padding-left: 0;
+}
+.pl0{
+    padding-left: 0 !important;
+}
+.mega_menu_table td{
+    width: 10%;
+    padding-left: 10px;
+    vertical-align: top;
+}
+.mega_menu_table td h3{
+    /* padding-left: 10px; */
+}
+.img_png{
+    width: 240px;
+    height: 180px;
+}
+.imd{
+    float: left;
+    width: 40px;
+    padding-right: 10px;
+}
+.imd ~div > div ~div{
+    color: #ccc;
+}
+.submenu_images{
+    width: 640px;
+    /* height: 420px; */
+    background: #fff;
+    position: absolute;
+    left: -200px;
+}
+.images_table{
+    padding: 10px;
+}
+.images_table > tbody tr td a img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: #555;
+}
+.submenu_images a{
+    color: #555;
+}
+.submenu_images a:hover{
+    color: #FF6347;
+}
+.images_table td{
+    padding-right: 10px;
+    padding-left: 10px;
 }
