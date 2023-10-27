@@ -3,6 +3,9 @@ body{
     overflow-y: hidden;
     font-family: 'poppins', sans-serif;
 }
+.r_tbdr{
+    border: 1px dashed red;
+}
 .headernav{
     width: 1280px;
     height: 50px;
@@ -108,6 +111,8 @@ body{
     left: -420.5px;
     color: #555;
 }
+
+/* -- --------------- MegaMenu_Table--------- -- */
 .mega_menu_table{
     height: 100%;
     width: 100%;
@@ -178,4 +183,105 @@ p{
 .images_table td{
     padding-right: 10px;
     padding-left: 10px;
+}
+
+/* -- ---------------- grid --------------------- -- */
+
+.submenu_grid{
+    background: #fff;
+    width: 1280px;
+    left: -542.5px;
+}
+.submenu_grid .grid-col{
+    display: inline-block;
+    background: #BFBFBF;
+    color: #555555;
+    border: 1px solid #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.submenu_grid .grid-col-1{
+    width: 96.6px;
+}
+.submenu_grid .grid-col-2{
+    width: 199.3px;
+}
+.submenu_grid .grid-col-3{
+    width: 300px;
+}
+.submenu_grid .grid-col-4{
+    width: 404.4px;
+}
+.submenu_grid .grid-col-5{
+    width: 506px;
+}
+.submenu_grid .grid-col-6{
+    width: 49%;
+}
+.submenu_grid .grid-col-7{
+    width: 714px;
+}
+.submenu_grid .grid-col-8{
+    width: 815px;
+}
+.submenu_grid .grid-col-9{
+    width: 920px;
+}
+.submenu_grid .grid-col-10{
+    width: 1020px;
+}
+.submenu_grid .grid-col-11{
+    width: 1123px;
+}
+.submenu_grid .grid-col-12{
+    width: 1226px;
+}
+
+/* -- -------------Tab Bar----------- -- */
+
+.submenu_tabbar{
+    width: 1280px;
+    padding: 15px;
+    background: #fff;
+    left: -621px;
+}
+.submenu_tabbar ul li{
+    list-style: none;
+}
+.submenu_tabbar ul li a{
+    color: #555;
+    padding-left: 20px;
+}
+.submenu_tabbar ul li a:hover{
+    color: #FF6347;
+    background: transparent;
+}
+
+/* -- ---------------- Contact -------------- -- */
+
+.submenu_contact{
+    width: 640px;
+    height: 450px;
+    background: #fff;
+    left: -300px;
+    padding: 20px;
+}
+.cmn_contact{
+    display: inline-block;
+    width: 315px;
+    vertical-align: top;
+}
+.inp_field{
+    background: #F7F7F7;
+    padding: 20px;
+}
+.inp_field input , textarea{
+    width: 100%;
+    margin-bottom: 10px;
+}
+button{
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    background: #ff6347;
 }
